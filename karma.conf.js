@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/app-piano'),
+      dir: require('path').join(__dirname, './coverage/angular14-portfolio'),
       subdir: '.',
       reporters: [
         { type: 'html' },
